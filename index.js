@@ -11,7 +11,7 @@ function getVideo() {
             paintToCanvas();
         })
         .catch(err => {
-            console.error('What the hell are you doing...?! you need the cam.... duh 🤪', err);
+            alert('There was an error connecting with your camera. Try with another browser. Chrome works best 👍🏽', err);
         })
 }
 
