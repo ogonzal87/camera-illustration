@@ -36,10 +36,4 @@ function updateColor() {
     document.documentElement.style.setProperty(`--color-changes`, rgb);
 }
 
-function loadApp() {
-    img.onload = () => {
-        getVideo();
-    }
-}
-
-window.addEventListener('load', loadApp);
+window.addEventListener('load', getVideo);
